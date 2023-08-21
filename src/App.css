@@ -6,5 +6,5 @@
 
 body {
   background: var(--tg-color-scheme);
-  color: var(-tg-scheme-text-color);
+  color: var(--tg-scheme-text-color);
 }
