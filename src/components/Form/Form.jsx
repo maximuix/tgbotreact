@@ -34,7 +34,7 @@ const Form = () => {
         SetSubject(e.target.value)
     }
     return (
-        <form className='form'>
+        <div className='form'>
             <h3>Введите ваши данные</h3>
             <input className='input' type='text' placeholder='Страна' value={country} onChange={onChangeCountry}/>
             <input className='input' type='text' placeholder='Улица' value={street} onChange={onChangeStreet}/>
@@ -42,7 +42,7 @@ const Form = () => {
                 <option value='physical'>Физ. лицо</option>
                 <option value='legal'>Юр. лицо</option>
             </select>
-        </form>
+        </div>
     );
 };
 
